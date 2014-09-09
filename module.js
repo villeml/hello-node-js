@@ -12,9 +12,3 @@ exports.getTimestamp = function(file, done){
 	
 };
 
-exports.format = function(time){
-	return time.getDate()+"."+(time.getMonth()+1)+"."+(time.getYear()+1900)
-	+ " " + time.toTimeString().split(" ")[0];
-
-
-}
